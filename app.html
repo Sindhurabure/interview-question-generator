@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interview Question Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🎯 Interview Question Generator</h1>
+    <p>Prepare smartly for job interviews</p>
+
+    <label>Select Job Role</label>
+    <select id="jobRole">
+    <option value="">-- Select Job Role --</option>
+    <option value="software">Software Engineer</option>
+    <option value="frontend">Frontend Developer</option>
+    <option value="backend">Backend Developer</option>
+    <option value="fullstack">Full Stack Developer</option>
+    <option value="tester">Software Tester</option>
+    <option value="devops">DevOps Engineer</option>
+</select>
+
+
+    <button onclick="generateQuestions()">Generate Questions</button>
+
+    <div id="output"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
